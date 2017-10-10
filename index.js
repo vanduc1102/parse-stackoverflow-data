@@ -86,7 +86,7 @@ function parseData() {
 			nodeList.forEach(function(element) {
 				var link = element.querySelector('a');
 				DataParse['social-links'].push({
-					'type': element.querySelector('svg').getAttribute('class').replace('svg-icon ',''),
+					'type': element.querySelector('svg').getAttribute('class').replace('svg-icon icon',''),
 					'url': link ? link.getAttribute('href') : element.textContent.trim()
 				});
 			}, this);
