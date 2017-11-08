@@ -7,6 +7,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "fivebeans": "^1.5.0",
     "jsdom": "^11.3.0",
     "request": "^2.83.0",
     "rimraf": "^2.6.2"
